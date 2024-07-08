@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.code-editor-container {
+  background-color: #2e2e2e; /* Dark background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.cm-editor.cm-focused {
+  outline: none;
+  border: 1px solid #4a90e2; /* Fancy border color when focused */
+}
+
+.cm-editor {
+  font-family: "Fira Code", monospace; /* Fancy font */
+  font-size: 14px;
+}
+
+.CodeMirror {
+  height: 100%;
+  background-color: #1e1e1e; /* Darker background for the editor */
+  color: #ffffff; /* White text color */
+}
+
+:root {
+  background-color: darkgray;
+}
